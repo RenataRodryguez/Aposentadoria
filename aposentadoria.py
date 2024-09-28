@@ -15,7 +15,7 @@ if escolha == 1:
 elif escolha == 2:
     genero_selecionado = generos[1]
 else:
-    print("Opção inválida, só existem 2 generos")
+    print("Opção inválida")
 
 idade = int(input("Digite sua idade"))
 #idade                    
