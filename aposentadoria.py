@@ -18,7 +18,7 @@ else:
     print("Opção inválida, só existem 2 generos")
 
 idade = int(input("Digite sua idade"))
-#age                     
+#idade                    
 if idade < 55:
     print(f'Desculpe {nome} você ainda não pode se aposentar')
     quit()
@@ -37,12 +37,12 @@ if escolha_trabalho == 1:
 elif escolha_trabalho == 2:
     trabalho_selecionado = trabalho[1]    
 
-#homis
+#homens
 if genero_selecionado == "masculino" and idade >= 60 and trabalho_selecionado == "Rural":
     print("Parabéns, você pode se aposentar") 
 elif genero_selecionado == "masculino" and idade >= 65 and trabalho_selecionado == "Não rural":
     print("Parabéns você pode se aposentar")
-#muieres
+#mulheres
 elif genero_selecionado == "feminino" and idade >= 55 and trabalho_selecionado == "Rural":
     print("Parabéns você pode se aposentar")
 elif genero_selecionado == "feminino" and idade >= 62 and trabalho_selecionado == "Não rural":
